@@ -1,0 +1,40 @@
+package scanner_HomeWork;
+
+import java.util.Scanner;
+
+public class Scan_Homework {
+	
+	public static void main(String args[] ) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter your store name");
+		String storeName = scan.nextLine();
+		System.out.println("Store Name : "+storeName);
+		
+		System.out.println("Tortillas Qty");
+		int breadq = scan.nextInt();
+		System.out.println("Bread price");
+		double breadPrice =scan.nextDouble();
+	    double totalPrice = breadq*breadPrice;
+	    System.out.println("Tortilla Total Price : "+totalPrice );
+		
+		
+//		System.out.println("Tortillas price");
+//		int breadp = scan.nextInt();
+//		System.out.println("Tortilla price : "+breadp);
+//		double totalbreads=bread*breadp;
+//		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

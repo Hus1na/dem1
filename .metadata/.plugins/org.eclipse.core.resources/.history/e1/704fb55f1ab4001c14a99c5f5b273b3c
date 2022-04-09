@@ -1,0 +1,26 @@
+package scanner_HomeWork;
+
+import java.util.Scanner;
+
+public class Scan_Homework {
+	
+	public static void main(String args[] ) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter your store name");
+		String storeName = scan.nextLine();
+		System.out.println("Store Name ; "+storeName);
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
